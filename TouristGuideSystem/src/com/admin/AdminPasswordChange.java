@@ -15,9 +15,7 @@ import javax.servlet.http.HttpSession;
 import com.algorithm.AES;
 import com.connection.DatabaseConnection;
 
-/**
- * Servlet implementation class AdminPasswordChange
- */
+
 @WebServlet("/AdminPasswordChange")
 public class AdminPasswordChange extends HttpServlet {
 
