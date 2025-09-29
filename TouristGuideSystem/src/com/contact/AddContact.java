@@ -9,9 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.connection.DatabaseConnection;
 
-/**
- * Servlet implementation class AddContact
- */
+
 @WebServlet("/AddContact")
 public class AddContact extends HttpServlet {
 	private static final long serialVersionUID = 1L;
