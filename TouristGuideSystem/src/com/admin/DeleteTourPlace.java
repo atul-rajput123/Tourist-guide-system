@@ -9,9 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.connection.DatabaseConnection;
 
-/**
- * Servlet implementation class DeleteTourPlace
- */
+
 @WebServlet("/DeleteTourPlace")
 public class DeleteTourPlace extends HttpServlet {
 	
