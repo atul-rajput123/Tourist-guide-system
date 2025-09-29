@@ -17,9 +17,7 @@ import javax.servlet.http.HttpSession;
 import com.algorithm.AES;
 import com.connection.DatabaseConnection;
 
-/**
- * Servlet implementation class AdminLogin
- */
+
 @WebServlet("/AdminLogin")
 public class AdminLogin extends HttpServlet {
 	private static final long serialVersionUID = 1L;
@@ -62,7 +60,7 @@ public class AdminLogin extends HttpServlet {
 				int update = DatabaseConnection.insertUpdateFromSqlQuery("update tblcaptcha set captcha='"+ newRandomCaptcha + "'");
 			}
 		} catch (Exception e) {
-			// TODO: handle exception
+			
 		}
 	}
 
