@@ -17,9 +17,6 @@ import org.apache.commons.fileupload.servlet.ServletFileUpload;
 
 import com.connection.DatabaseConnection;
 
-/**
- * Servlet implementation class AddTourPlace
- */
 @WebServlet("/AddTourPlace")
 public class AddTourPlace extends HttpServlet {
 private final String UPLOAD_DIRECTORY = "F:/project-workspace/TouristGuideSystem/WebContent/upload/";
