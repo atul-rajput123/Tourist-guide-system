@@ -10,9 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 import com.algorithm.AES;
 import com.connection.DatabaseConnection;
 
-/**
- * Servlet implementation class AddUser
- */
+
 @WebServlet("/AddUser")
 public class AddUser extends HttpServlet {
 	final String secretKey = "%@ajdhdklddf";
