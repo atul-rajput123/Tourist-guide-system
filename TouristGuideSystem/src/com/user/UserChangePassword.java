@@ -15,9 +15,7 @@ import javax.servlet.http.HttpSession;
 import com.algorithm.AES;
 import com.connection.DatabaseConnection;
 
-/**
- * Servlet implementation class UserChangePassword
- */
+
 @WebServlet("/UserChangePassword")
 public class UserChangePassword extends HttpServlet {
 	final String secretKey = "%@ajdhdklddf";
