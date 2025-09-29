@@ -10,9 +10,7 @@ import javax.servlet.http.HttpSession;
 
 import com.connection.DatabaseConnection;
 
-/**
- * Servlet implementation class AddFeeback
- */
+
 @WebServlet("/AddFeedback")
 public class AddFeedback extends HttpServlet {
 	
